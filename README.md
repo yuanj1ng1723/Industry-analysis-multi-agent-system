@@ -20,3 +20,18 @@ graph TD
     D -- 审核通过 (APPROVED) --> E[📝 Publisher Node: 英文翻译与精美排版]
     E --> F[END: 输出 Markdown 报告]
 ```
+
+
+🛠️ 快速开始
+1. 安装依赖
+Bash
+pip install -r requirements.txt
+2. 配置环境变量
+请在终端中设置你的大模型 API Key（本项目默认使用兼容 OpenAI 格式的 Kimi 模型进行演示，可自行在代码中替换为 GPT-4o / Claude-3.5 等）：
+
+Bash
+export ANTHROPIC_API_KEY="your-api-key-here"
+export ANTHROPIC_BASE_URL="https://api.kimi.com/coding/" # 若有自定义中转
+3. 运行系统
+Bash
+python industry_research_agent.py
