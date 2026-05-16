@@ -1,0 +1,6 @@
+# 自动化行业研究系统依赖
+langgraph>=0.0.20
+langchain-anthropic>=0.1.0
+langchain-core>=0.1.0
+requests>=2.28.0
+ddgs>=5.0.0
